@@ -1,0 +1,51 @@
+# 필드 설명: references/constraints-schema.md
+# 원문에 없는 값은 쓰지 말고 open_questions로. 규칙 항목에는 source를 단다.
+
+project:
+  name: "{{NAME}}"
+  archetype: competition
+  one_liner: null
+  deadline: null
+  first_milestone: "동작하는 베이스라인 제출물 1개 + 로컬 자가 채점"
+
+sources: []
+
+allowed: []
+must: []
+forbidden: []
+
+traps: []
+#  - clause: ""
+#    implication: ""
+#    source: ""
+
+evaluation:
+  metric: null
+  local_proxy: null
+  splits: null
+  secondary: null
+
+deliverable:
+  format: null
+  checks: []
+
+runtime:
+  hardware: null
+  time_limit: null
+  network: null
+  env_vars: []
+  pinned: []
+  local: null
+
+reproducibility: []
+
+data: []
+
+design_principle: null
+
+open_questions: []
+#  - q: ""
+#    where_to_check: ""
+#    blocking: false
+
+assumptions: []

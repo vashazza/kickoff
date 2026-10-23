@@ -1,0 +1,14 @@
+{
+  "name": "kickoff",
+  "description": "대회·연구 실험 프로젝트 초기 세팅 플러그인",
+  "owner": {
+    "name": "Dongcho Park"
+  },
+  "plugins": [
+    {
+      "name": "kickoff",
+      "source": "./",
+      "description": "대회·연구 실험 프로젝트 초기 세팅 (제약 추출 → 확인 → 스캐폴드 → HANDOFF.md → 연구일지)"
+    }
+  ]
+}

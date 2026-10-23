@@ -1,0 +1,49 @@
+# 필드 설명: references/constraints-schema.md
+# 원문에 없는 값은 쓰지 말고 open_questions로. 규칙 항목에는 source를 단다.
+
+project:
+  name: "{{NAME}}"
+  archetype: research
+  one_liner: null
+  deadline: null
+  first_milestone: "평가 파이프라인 고정 + 베이스라인 1개 재현"
+
+sources: []
+
+research:
+  question: null
+  hypotheses: []
+  #  - id: H1
+  #    statement: ""
+  #    falsified_if: ""
+  success_criteria: null
+  baselines: []
+  datasets: []
+  metrics: []
+  statistics: null
+  seeds: [0, 1, 2]
+  compute_budget: null
+  venue: null
+  result_map: []
+
+allowed: []
+must: []
+forbidden: []
+
+traps: []
+
+evaluation:
+  metric: null
+  local_proxy: null
+
+runtime:
+  hardware: null
+  local: null
+
+reproducibility: []
+
+design_principle: null
+
+open_questions: []
+
+assumptions: []
