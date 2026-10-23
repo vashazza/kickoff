@@ -1,7 +1,7 @@
 # constraints.yaml 스키마
 
 HANDOFF.md의 모든 규칙 요약은 이 파일에서 나온다. 사람이 읽고 고치기 쉬운 것이 우선이라 YAML로 둔다.
-모든 규칙성 항목(`must`, `forbidden`, `allowed`, `traps`)은 `source`를 가진다. 형식: `"<문서명> §조항"` 또는 `"<문서명> p.N"`, 웹이면 URL.
+모든 규칙성 항목(`must`, `forbidden`, `allowed`, `traps`)은 `source`를 가진다. 형식: `"<문서명> §조항"` 또는 `"<문서명> p.N"`, 웹이면 URL, 인터뷰로 얻은 값이면 `"사용자 답변 (YYYY-MM-DD)"`.
 
 ## 공통 필드
 

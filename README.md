@@ -46,6 +46,11 @@
 ```
 또는 "이 대회 초기 세팅해줘", "연구 실험 프로젝트 kickoff 해줘".
 
+**문서가 없어도 된다.** 문서가 없거나 부족하면 인터뷰 모드로 착수에 꼭 필요한 것부터 3~4개씩 묻는다.
+- research: 인터뷰가 기본 경로. 연구 질문·가설(반증 조건)·데이터셋·베이스라인·지표 순.
+- competition: 규칙 원문은 대체할 수 없어서 먼저 대회 링크나 규칙 붙여넣기를 요청한다. 그래도 없으면 인터뷰로 진행하되 원문 확인을 막는 질문으로 남긴다.
+- 답변은 `source: "사용자 답변 (날짜)"`로 기록돼, 나중에 문서와 대조할 수 있다.
+
 Claude가 `constraints.yaml`을 채운 뒤 **traps(어기면 무효가 되는 조항)·핵심 금지사항·평가 지표·막히는 질문**을 보여주고 멈춘다.
 확인하면 폴더와 문서를 만든다. 기존 파일은 덮어쓰지 않는다.
 
@@ -104,6 +109,7 @@ skills/kickoff/
   templates/common/{CLAUDE.md, README.md, research_log.md}
   references/constraints-schema.md
   references/checklist-{competition,research}.md
+  references/interview.md            # 문서 없을 때 질문 목록 (Tier 1 → 2)
   references/examples/competition-example.md  # 품질 기준이 된 실제 HANDOFF 예시 (대회 식별 정보 마스킹)
 skills/research-log/
   SKILL.md
