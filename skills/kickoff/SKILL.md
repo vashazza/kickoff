@@ -1,6 +1,6 @@
 ---
 name: kickoff
-description: Set up a brand-new competition/hackathon or research-experiment project from its source documents — extract rules and constraints into constraints.yaml, get the user's confirmation, then scaffold the folder, write HANDOFF.md, CLAUDE.md and the research log. Use when the user starts a new 대회·해커톤·경진대회·연구 실험·논문 실험 project, says "kickoff", "초기 세팅", "프로젝트 세팅", "HANDOFF 만들어줘", or drops rule/data-spec documents into an empty project folder.
+description: Set up a brand-new competition/hackathon or research-experiment project — extract rules and constraints from its source documents (or, when there are none, by interviewing the user) into constraints.yaml, get the user's confirmation, then scaffold the folder, write HANDOFF.md, CLAUDE.md and the research log. Use when the user starts a new 대회·해커톤·경진대회·연구 실험·논문 실험 project, says "kickoff", "초기 세팅", "프로젝트 세팅", "HANDOFF 만들어줘", drops rule/data-spec documents into an empty project folder, or describes a new project with no documents yet.
 ---
 
 # Kickoff — 프로젝트 초기 세팅
